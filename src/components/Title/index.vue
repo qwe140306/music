@@ -1,6 +1,6 @@
 <template>
   <div class="title-container">
-    <h2 class="leftTitle">
+    <h2 class="leftTitle van-ellipsis">
       <van-icon v-if="refreshIcon" class="iconfont" :class="refreshIcon" size="0.426rem"></van-icon>
       {{ title }}
     </h2>
@@ -51,6 +51,7 @@ export default {
 
   .leftTitle {
     font-size: 16px;
+    width: 270px;
     margin: 0;
   }
 
